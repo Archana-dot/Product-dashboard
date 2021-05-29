@@ -1,0 +1,112 @@
+.registartion {
+    height: 100%;
+    width: 50%;
+    float: left;
+    top: 0;
+    position: fixed;
+    padding-left: 150px;
+    /* align-items: center;
+    justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.registartion input{
+    width: 250px;
+    padding: 10px;
+    font-size: 14px;
+    outline: 1 white;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid rgb(63, 58, 58);
+    padding-left: 30px;
+    font-family: FontAwesome;
+}
+.registartion span{
+    margin-left: 60px;
+    display: flex;
+}
+.registartion span >div {
+    padding: 10px;
+}
+
+.registartion  button{
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+    outline: 0;
+    background-color:#d62828;
+    border-radius: 25px;
+    color :white;
+    border: 1px solid #d62828;
+    padding-bottom: 10px;
+
+}
+
+.registartion h3{
+    padding-left: 70px;
+}
+.registartion .image{
+   padding-left: 7px;
+}
+
+
+.registartion p{ font-size: 14px;}
+.registartion p1{
+    padding-left: 90px;
+    font-size: 14px;
+} 
+.registartion p2{
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+.link{
+    color: red;
+    text-decoration: none;
+}
+.login p3{
+    padding-left: 50px;
+    font-size: 14px;
+}
+.login p4{
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+.fa-facebook{
+    color:#4267B2;
+    size: 1em;
+    height: 2em;
+    border-radius: 25px;
+}
+.fa-google{
+    color: rgb(238, 17, 17);
+    size: 1em;
+    height: 2em;
+    border-radius: 25px;
+    margin: 0 5px;
+}
+.fa-twitter{
+    color: #1DA1F2;
+    size: 1em;
+    height: 2em;
+    border-radius: 25px;
+}
+.fa-linkedin-in{
+    color:#2867B2;
+    size: 1x;
+    height: 2em;
+    border-radius: 25px;
+}
+#error{
+    color:red;
+    padding-left: 0px;
+}
+#error2{
+    color: red;
+    padding-left: 170px;
+}

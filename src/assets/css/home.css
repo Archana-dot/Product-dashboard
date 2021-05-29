@@ -1,0 +1,53 @@
+.header{
+    padding:10px;
+}
+.homepage .header .header-left{
+    padding-bottom: inherit;
+     display: flex;
+     flex-direction: row;
+     float: left;
+}
+.homepage .header .header-right{
+    text-align: right;
+    float: right;
+}
+.homepage #logout{
+    background-color: white;
+    border:none;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #d62828;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.homepage #button{
+    background-color: white;
+    border: none;
+    color: cornflowerblue;
+    font-size: 30px;
+    outline: none;
+    display: flex;
+}
+button{
+    cursor: pointer;
+}
+.link1.selected{
+    border-bottom: 3px solid cornflowerblue;
+}
+.btn{
+    border-bottom: blue;
+    margin-right: 10px;
+    width:100px;
+    text-decoration: underline;
+    font-size: 25px;
+    padding-left: 30px;
+    color: blue;
+}
+.xbtn{
+    margin-right: 10px;
+    width:100px;
+    text-decoration:none;
+    font-size: 25px;
+    padding-left: 30px;
+}
